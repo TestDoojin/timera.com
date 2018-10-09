@@ -44,7 +44,7 @@
     "type" : "DEFAULT",
     "disabledEnvironments" : 0,
     "uri" : "http://www.oooppp6.com",
-    "cronRefresh" : "46 0/3 * 1/1 * ? *",
+    "cronRefresh" : "6 2/3 * 1/1 * ? *",
     "freshnessExpressionInSeconds" : 360
   } ],
   "configuration" : {
