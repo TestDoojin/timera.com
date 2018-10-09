@@ -1,0 +1,22 @@
+{
+  "name" : "index",
+  "title" : "uiuiuiuoi.fdeswww",
+  "uri" : "uiuiuiuoi.fdeswww",
+  "refreshFrequencyTimeRange" : "08:00-14:00",
+  "userInterface" : {
+    "themeName" : "mediaBlog",
+    "resourcesHost" : "https://bc.marfeelcache.com",
+    "lang" : "English",
+    "features" : {
+      "themeNameByDevice" : {
+        "s" : "k"
+      }
+    },
+    "adex" : false
+  },
+  "configuration" : {
+    "quartzInvalidation" : "true",
+    "feedRipper" : "marfeelPressRipper",
+    "boilerpipeFetcher" : "marfeelPressFetcher"
+  }
+}
