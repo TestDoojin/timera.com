@@ -1,0 +1,53 @@
+{
+  "name" : "index",
+  "title" : "op10.com",
+  "uri" : "op10.com",
+  "refreshFrequencyTimeRange" : "08:00-14:00",
+  "userInterface" : {
+    "themeName" : "mediaBlog",
+    "resourcesHost" : "https://bc.marfeelcache.com",
+    "lang" : "en",
+    "features" : {
+      "twisterJavaEnabled" : true,
+      "forceXL" : true,
+      "themeNameByDevice" : {
+        "s" : "k"
+      },
+      "useInventoryAds" : "remote"
+    },
+    "adex" : false
+  },
+  "sectionDefinitions" : [ {
+    "name" : "home",
+    "styles" : "photo",
+    "title" : "Home",
+    "itemLimit" : 0,
+    "premium" : false,
+    "feedDefinitions" : [ {
+      "uri" : "http://www.op10.com",
+      "alibabaDefinition" : {
+        "configuration" : {
+          "whiteCollarScript" : "index/src/whiteCollar/main.js",
+          "cronRefresh" : "0 0/3 * 1/1 * ? *"
+        }
+      },
+      "configuration" : {
+        "whiteCollarScript" : "index/src/whiteCollar/main.js",
+        "cronRefresh" : "0 0/3 * 1/1 * ? *"
+      }
+    } ],
+    "configuration" : {
+      "whiteCollarScript" : "index/src/whiteCollar/main.js",
+      "cronRefresh" : "0 0/3 * 1/1 * ? *"
+    },
+    "level" : 0,
+    "type" : "DEFAULT",
+    "disabledEnvironments" : 0,
+    "uri" : "http://www.op10.com",
+    "freshnessExpressionInSeconds" : 360,
+    "cronRefresh" : "25 0/3 * 1/1 * ? *"
+  } ],
+  "configuration" : {
+    "whiteCollarScript" : "index/src/whiteCollar/main.js"
+  }
+}
